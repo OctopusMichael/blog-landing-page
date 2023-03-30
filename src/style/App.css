@@ -13,9 +13,13 @@ Primary */
   --veryLightRed: hsl(355, 100%, 74%);
   /* (headings) */
   --veryDarkBlue: hsl(208, 49%, 24%);
-  --veryDaark : #262846e8;
+  --veryDaark: #262846e8;
 
-  --linear :linear-gradient(273deg, rgba(85,77,120,1) 11%, rgba(54,57,73,1) 85%);
+  --linear: linear-gradient(
+    273deg,
+    rgba(85, 77, 120, 1) 11%,
+    rgba(54, 57, 73, 1) 85%
+  );
 
   /* ### Neutral */
   /* (text) */
@@ -46,10 +50,10 @@ body {
   background-color: var(--white);
   font-family: "Overpass", sans-serif;
   overflow-x: hidden;
-  
+  scroll-behavior: smooth;
 }
 
-.sub-menu{
+.sub-menu {
   background-color: var(--grayishBlue);
   height: 200px;
   width: 90%;
@@ -63,49 +67,41 @@ body {
   color: red !important;
 }
 
-.menu-active{
+.menu-active {
   position: absolute;
   top: 80px;
   right: 20px;
   height: 60vh;
-  width: 90% ;
-  background-color:whitesmoke;
+  width: 90%;
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
- 
 }
 
-.menu-active a{
-  color:var(--veryDarkBlue) !important;
+.menu-active a {
+  color: var(--veryDarkBlue) !important;
   font-weight: 900;
   margin: -5px 0px;
- 
-
 }
-.menu-active a:hover{
+.menu-active a:hover {
   color: var(--lightRed) !important;
-
 }
-.menu-active a{
-  color:var(--veryDarkBlue) !important;
+.menu-active a {
+  color: var(--veryDarkBlue) !important;
   font-weight: 900;
   margin: 0px 0px;
- 
-
 }
 
-.line{
+.line {
   height: 0px;
   width: 90%;
   border: 1px solid rgba(128, 128, 128, 0.322);
-  
 }
- 
 
-.menu-active button{
+.menu-active button {
   height: 50px;
   width: 140px;
   margin: 0px 10px 0px 10px;
@@ -114,12 +110,10 @@ body {
   background-color: var(--lightRed);
   color: white;
 }
-.menu-active button:hover{
- background-color: var(--white);
- color:var(--lightRed);
+.menu-active button:hover {
+  background-color: var(--white);
+  color: var(--lightRed);
 }
-
-
 
 .navbar-navbar {
   background-color: transparent;
@@ -245,9 +239,8 @@ body {
   height: 300px;
   background-position: center;
 }
-.section-info img{
+.section-info img {
   display: none;
-
 }
 .articles {
   text-align: center;
@@ -260,7 +253,7 @@ body {
 }
 .articles p {
   padding: 0px 30px;
-  line-height: 30px;  
+  line-height: 30px;
 }
 
 .section-banner {
@@ -293,7 +286,7 @@ body {
 .section-banner p {
   padding: 18px 20px 90px;
   color: white;
-  line-height: 30px;  
+  line-height: 30px;
 }
 
 .ilustration-button {
@@ -301,7 +294,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   height: 300px;
- 
+
   background-position: center;
 }
 
@@ -309,20 +302,18 @@ body {
   text-align: center;
 }
 
-.articles-button h3{
+.articles-button h3 {
   font-weight: 900;
   padding: 50px 0px 15px 0px;
   color: var(--veryDarkBlue);
-
 }
-.articles-button p{
-  
+.articles-button p {
   padding: 0px 30px;
-  line-height: 30px;  
+  line-height: 30px;
   color: var(--veryDarkGrayishBlue);
 }
 
-.section-info-button img{
+.section-info-button img {
   height: 100%;
   position: absolute;
   top: 130px;
@@ -354,7 +345,7 @@ body {
 }
 .menu-footer a {
   text-decoration: none;
-  color:var(--grayishBlue);
+  color: var(--grayishBlue);
   margin: 5px 0px;
 }
 .menu-footer a:hover {
@@ -370,10 +361,7 @@ body {
 
 /* ## Mobile First Method */
 
- 
-/* Extra Small Devices, Phones */ 
-
- 
+/* Extra Small Devices, Phones */
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
@@ -385,7 +373,6 @@ body {
     padding: 80px 140px;
     align-items: center;
     transition: all 5s ease;
- 
   }
 
   .logo img {
@@ -395,26 +382,22 @@ body {
   .navbar-navbar a {
     color: white;
     text-decoration: none;
-    padding: 0px 28px ;
+    padding: 0px 28px;
   }
   .navbar-navbar a:hover {
     text-decoration: underline;
     color: white;
   }
 
-  .navbar-navbar-off{
+  .navbar-navbar-off {
     display: none;
   }
-  
-
-  
 
   .navbar-navbar button {
     height: 50px;
     width: 140px;
     border-radius: 50px;
     border: none;
-    
   }
   .menu-open button {
     background-color: transparent;
@@ -428,12 +411,11 @@ body {
 
   .menu {
     display: block;
-
   }
   .menu-login {
     display: block;
   }
-  .menu-login button:hover{
+  .menu-login button:hover {
     background-color: var(--lightRed);
     color: white;
   }
@@ -460,12 +442,12 @@ body {
     margin-top: 100px;
     font-weight: 900;
   }
-  .section-hero h5{
+  .section-hero h5 {
     color: var(--grayishBlue);
     padding: 0px 30px;
     margin-top: 0px;
   }
-  
+
   .section-hero button {
     height: 50px;
     width: 140px;
@@ -475,11 +457,11 @@ body {
   }
 
   /******************Section-Info*******************/
-  .section-info{
+  .section-info {
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
-    padding:20px 0px 240px;
+    padding: 20px 0px 240px;
   }
   .title {
     text-align: center;
@@ -489,9 +471,9 @@ body {
   .title h1 {
     font-weight: 900;
     color: var(--veryDarkBlue);
-    font-size:40px;
+    font-size: 40px;
   }
-  
+
   .ilustration {
     background-image: url(../images/illustration-editor-desktop.svg);
     background-repeat: no-repeat;
@@ -502,36 +484,31 @@ body {
     display: none;
   }
 
-
-  .section-info img{
+  .section-info img {
     display: block;
     position: absolute;
     top: 80px;
     right: -270px;
     z-index: 100000;
     height: 55rem;
-    
-
-    
   }
 
   .articles {
     text-align: start;
   }
-  
-  .articles h3{
+
+  .articles h3 {
     font-weight: 900;
     padding: 50px 0px 15px 150px;
     color: var(--veryDarkBlue);
   }
-  .articles p{
-    padding: 0px  0px  10px 150px;
-    line-height: 30px;  
+  .articles p {
+    padding: 0px 0px 10px 150px;
+    line-height: 30px;
     font-weight: 600;
     color: var(--veryDarkGrayishBlue);
-    line-height: 30px;  
+    line-height: 30px;
   }
-
 
   /****************Banner*******************/
 
@@ -556,7 +533,7 @@ body {
     left: 120px;
     transform: translate(0%, 0%);
   }
-  
+
   .section-banner h1 {
     color: white;
     font-size: 36px;
@@ -569,12 +546,10 @@ body {
     padding: 15px 140px 90px 12px;
     color: white;
     text-align: start;
-    line-height: 30px;  
+    line-height: 30px;
   }
 
-  
   /******************Section-Info-button*******************/
-  
 
   .ilustration-button {
     background-image: url(../images/illustration-laptop-mobile.svg);
@@ -584,13 +559,13 @@ body {
     background-position: center;
     display: none;
   }
-  
-  .section-info-button{
+
+  .section-info-button {
     position: relative;
-    padding: 0px 0px 0px 0px ;
+    padding: 0px 0px 0px 0px;
   }
-  .section-info-button img{
-    height:50rem;
+  .section-info-button img {
+    height: 50rem;
     position: absolute;
     top: 110px;
     left: -300px;
@@ -601,124 +576,110 @@ body {
   .articles-button {
     text-align: start;
   }
-  
-  .articles-button h3{
+
+  .articles-button h3 {
     font-weight: 900;
     padding: 50px 150px 15px 0px;
     color: var(--veryDarkBlue);
   }
-  .articles-button p{
-    padding: 0px  150px  10px 0px;
-    line-height: 30px;  
+  .articles-button p {
+    padding: 0px 150px 10px 0px;
+    line-height: 30px;
     font-weight: 600;
     color: var(--veryDarkGrayishBlue);
   }
 
-/********************Footer********************/
+  /********************Footer********************/
 
-.section-footer {
-  background-color: var(--veryDarkBlackBlue);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: space-around;
-  color: white;
-  border-radius: 0px 100px 0px 0px;
-  margin-top: 260px;
-  height: 100%;
+  .section-footer {
+    background-color: var(--veryDarkBlackBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-around;
+    color: white;
+    border-radius: 0px 100px 0px 0px;
+    margin-top: 260px;
+    height: 100%;
+  }
+
+  .menu-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    padding: 80px;
+  }
+  .menu-footer h5 {
+    font-weight: 900;
+    margin: 0px 0px 10px 0px;
+  }
+  .menu-footer a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 0px 0px 0px;
+  }
+  .menu-footer a:hover {
+    color: var(--lightRed);
+  }
+
+  .footer-logo {
+    padding: 80px 250px 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .footer-logo img {
+    height: 50px;
+  }
+
+  .menu-active-desktop.product {
+    background-color: white;
+    height: auto;
+    width: 10rem;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 5px;
+    border-radius: 10px;
+  }
+  .menu-active-desktop.company {
+    background-color: white;
+    height: auto;
+    width: 10rem;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 5px;
+    border-radius: 10px;
+  }
+  .menu-active-desktop.connect {
+    background-color: white;
+    height: auto;
+    width: 10rem;
+    position: absolute;
+    top: 70%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 5px;
+    border-radius: 10px;
+  }
+
+  .menu-active-desktop a {
+    margin-top: 5px;
+    color: black !important;
+  }
+  .menu-active-desktop a:hover {
+    font-weight: 900;
+  }
 }
-
-
-.menu-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: start;
-  padding: 80px;
-
- 
- 
-}
-.menu-footer h5 {
-  font-weight: 900;
-  margin :0px 0px 10px 0px
-}
-.menu-footer a {
-  text-decoration: none;
-  color: white;
-  margin: 10px 0px 0px 0px;
-
-}
-.menu-footer a:hover {
-  color: var(--lightRed);
-}
-
-.footer-logo {
-  padding: 80px 250px 0px 0px;
-  display: flex;
-  justify-content: center;
-  
-}
-.footer-logo img{
-  height: 50px;
-}
-
-.menu-active-desktop.product{
-  background-color: white;
-  height: auto;
-  width: 10rem;
-  position: absolute;
-  top: 70%;
-  left: 15%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  padding: 20px 5px;
-  border-radius: 10px;
-}
-.menu-active-desktop.company{
-  background-color: white;
-  height: auto;
-  width: 10rem;
-  position: absolute;
-  top: 70%;
-  left: 25%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  padding: 20px 5px;
-  border-radius: 10px;
-}
-.menu-active-desktop.connect{
-  background-color: white;
-  height: auto;
-  width: 10rem;
-  position: absolute;
-  top: 70%;
-  left: 35%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  padding: 20px 5px;
-  border-radius: 10px;
-}
-
-.menu-active-desktop a{
-  margin-top: 5px;
-  color: black !important;
-}
-.menu-active-desktop a:hover{
-  font-weight: 900;
-
- 
-}
-
-
-
- 
-}
-
-

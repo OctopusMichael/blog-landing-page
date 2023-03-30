@@ -21,6 +21,8 @@ const Navbar = () => {
     console.log(window.scrollY)
     if(scrollTop > 200){
       setShowNavbar(false)
+      setSubMenu({ ...subMenu, product: false , company : false , connect : false })
+      setMenu(false)
     } else{
       setShowNavbar(true)
     }
